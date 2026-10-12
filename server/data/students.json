@@ -2,134 +2,155 @@
   {
     "id": "std-1",
     "name": "Nguyễn Văn An",
-    "email": "[an.nguyen@example.com](mailto:an.nguyen@example.com)",
+    "email": "[an.nguyen@gmail.com](mailto:an.nguyen@gmail.com)",
     "dateOfBirth": "2003-05-15",
     "className": "SE1"
   },
   {
     "id": "std-2",
     "name": "Trần Thị Bích",
-    "email": "[bich.tran@example.com](mailto:bich.tran@example.com)",
+    "email": "[bich.tran@gmail.com](mailto:bich.tran@gmail.com)",
     "dateOfBirth": "2003-08-22",
     "className": "IT2"
   },
   {
     "id": "std-3",
     "name": "Lê Hoàng Cường",
-    "email": "[cuong.le@example.com](mailto:cuong.le@example.com)",
+    "email": "[cuong.le@gmail.com](mailto:cuong.le@gmail.com)",
     "dateOfBirth": "2002-11-10",
     "className": "SE1"
   },
   {
+  "id": "std-4",
+  "name": "Nguyễn Minh",
+  "email": "[minh.nguyen@example.com](mailto:minh.nguyen@example.com)",
+  "dateOfBirth": "2003-05-18",
+  "className": "SE1"
+  },
+  {
     "id": "std-5",
     "name": "Phạm Minh Đức",
-    "email": "[duc.pham@example.com](mailto:duc.pham@example.com)",
+    "email": "[duc.pham@gmail.com](mailto:duc.pham@gmail.com)",
     "dateOfBirth": "2004-02-18",
     "className": "SE2"
   },
   {
     "id": "std-6",
     "name": "Võ Ngọc Hà",
-    "email": "[ha.vo@example.com](mailto:ha.vo@example.com)",
+    "email": "[ha.vo@gmail.com](mailto:ha.vo@gmail.com)",
     "dateOfBirth": "2003-12-05",
     "className": "IT1"
   },
   {
     "id": "std-7",
     "name": "Đặng Quốc Huy",
-    "email": "[huy.dang@example.com](mailto:huy.dang@example.com)",
+    "email": "[huy.dang@gmail.com](mailto:huy.dang@gmail.com)",
     "dateOfBirth": "2002-07-21",
     "className": "SE2"
   },
   {
     "id": "std-8",
     "name": "Bùi Thị Lan",
-    "email": "[lan.bui@example.com](mailto:lan.bui@example.com)",
+    "email": "[lan.bui@gmail.com](mailto:lan.bui@gmail.com)",
     "dateOfBirth": "2004-09-14",
     "className": "IT2"
   },
   {
     "id": "std-9",
     "name": "Đỗ Thành Nam",
-    "email": "[nam.do@example.com](mailto:nam.do@example.com)",
+    "email": "[nam.do@gmail.com](mailto:nam.do@gmail.com)",
     "dateOfBirth": "2003-03-30",
     "className": "SE1"
   },
   {
     "id": "std-10",
     "name": "Hồ Mỹ Linh",
-    "email": "[linh.ho@example.com](mailto:linh.ho@example.com)",
+    "email": "[linh.ho@gmail.com](mailto:linh.ho@gmail.com)",
     "dateOfBirth": "2004-06-12",
     "className": "IT1"
   },
   {
     "id": "std-11",
     "name": "Nguyễn Đức Long",
-    "email": "[long.nguyen@example.com](mailto:long.nguyen@example.com)",
+    "email": "[long.nguyen@gmail.com](mailto:long.nguyen@gmail.com)",
     "dateOfBirth": "2002-10-25",
     "className": "SE3"
   },
   {
     "id": "std-12",
     "name": "Trương Thảo My",
-    "email": "[my.truong@example.com](mailto:my.truong@example.com)",
+    "email": "[my.truong@gmail.com](mailto:my.truong@gmail.com)",
     "dateOfBirth": "2003-04-08",
     "className": "IT2"
   },
   {
     "id": "std-13",
     "name": "Phan Gia Bảo",
-    "email": "[bao.phan@example.com](mailto:bao.phan@example.com)",
+    "email": "[bao.phan@gmail.com](mailto:bao.phan@gmail.com)",
     "dateOfBirth": "2004-01-19",
     "className": "SE1"
   },
   {
     "id": "std-14",
     "name": "Lý Khánh Vy",
-    "email": "[vy.ly@example.com](mailto:vy.ly@example.com)",
+    "email": "[vy.ly@gmail.com](mailto:vy.ly@gmail.com)",
     "dateOfBirth": "2002-12-27",
     "className": "IT3"
   },
   {
     "id": "std-15",
     "name": "Mai Hoàng Phúc",
-    "email": "[phuc.mai@example.com](mailto:phuc.mai@example.com)",
+    "email": "[phuc.mai@gmail.com](mailto:phuc.mai@gmail.com)",
     "dateOfBirth": "2003-09-03",
     "className": "SE2"
   },
   {
     "id": "std-16",
     "name": "Cao Thị Hương",
-    "email": "[huong.cao@example.com](mailto:huong.cao@example.com)",
+    "email": "[huong.cao@gmail.com](mailto:huong.cao@gmail.com)",
     "dateOfBirth": "2004-05-26",
     "className": "IT1"
   },
   {
     "id": "std-17",
     "name": "Dương Nhật Minh",
-    "email": "[minh.duong@example.com](mailto:minh.duong@example.com)",
+    "email": "[minh.duong@gmail.com](mailto:minh.duong@gmail.com)",
     "dateOfBirth": "2002-08-11",
     "className": "SE3"
   },
   {
     "id": "std-18",
     "name": "Huỳnh Ngọc Trâm",
-    "email": "[tram.huynh@example.com](mailto:tram.huynh@example.com)",
+    "email": "[tram.huynh@gmail.com](mailto:tram.huynh@gmail.com)",
     "dateOfBirth": "2003-02-16",
     "className": "IT3"
   },
   {
     "id": "std-19",
     "name": "Vũ Anh Khoa",
-    "email": "[khoa.vu@example.com](mailto:khoa.vu@example.com)",
+    "email": "[khoa.vu@gmail.com](mailto:khoa.vu@gmail.com)",
     "dateOfBirth": "2004-11-07",
     "className": "SE2"
   },
   {
     "id": "std-20",
     "name": "Đinh Thanh Tâm",
-    "email": "[tam.dinh@example.com](mailto:tam.dinh@example.com)",
+    "email": "[tam.dinh@gmail.com](mailto:tam.dinh@gmail.com)",
     "dateOfBirth": "2003-07-29",
     "className": "SE1"
+  },
+  {
+    "id": "std-21",
+    "name": "Luyện Minh Đước",
+    "email": "[lmduoc@gmail.com](mailto:lmduoc@gmail.com)",
+    "dateOfBirth": "2009-01-14",
+    "className": "SE3"
+  },
+  {
+    "id": "std-22",
+    "name": "Lê Hội An",
+    "email": "[lho.an@gmail.com](mailto:lho.an@gmail.com)",
+    "dateOfBirth": "2005-08-22",
+    "className": "CT03"
   }
 ]

@@ -84,12 +84,27 @@ export class StudentService {
             throw error;
           }
 
-          // Tạo ID bắt buộc theo format JSON Block 1: "std-" + timestamp
-          let newId = `std-${Date.now()}`;
-          let offset = 1;
+          // Tạo ID theo thứ tự tăng dần: std-1, std-2, std-3, std-4...
+          const sequentialNumbers = students
+            .map((s) => {
+              const strId = String(s.id);
+              const match = strId.match(/^std-(\d+)$/);
+              if (match) {
+                const num = parseInt(match[1], 10);
+                return num < 1_000_000_000 ? num : 0;
+              }
+              const directNum = parseInt(strId, 10);
+              return !isNaN(directNum) && directNum < 1_000_000_000 ? directNum : 0;
+            })
+            .filter((n) => n > 0);
+
+          const maxId = sequentialNumbers.length > 0 ? Math.max(...sequentialNumbers) : 0;
+          let nextNumber = maxId + 1;
+          let newId = `std-${nextNumber}`;
+
           while (students.some((s) => String(s.id) === newId)) {
-            newId = `std-${Date.now() + offset}`;
-            offset++;
+            nextNumber++;
+            newId = `std-${nextNumber}`;
           }
 
           // Lưu email theo định dạng chuẩn JSON có sẵn: [email](mailto:email)

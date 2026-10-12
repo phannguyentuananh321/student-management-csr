@@ -101,7 +101,7 @@ describe('Student REST API & Duplicate Gmail Verification', () => {
     expect(res.body.data[0].id).toBe('std-1');
   });
 
-  it('POST /api/students thêm sinh viên hợp lệ với Gmail và tạo ID theo chuẩn std-', async () => {
+  it('POST /api/students thêm sinh viên hợp lệ với Gmail và tạo ID theo thứ tự tăng dần (std-2, std-3...)', async () => {
     const newStudent = {
       name: 'Tran Thi B',
       email: 'b.tran@gmail.com',
@@ -112,12 +112,13 @@ describe('Student REST API & Duplicate Gmail Verification', () => {
     const res = await request(app).post('/api/students').send(newStudent);
     expect(res.status).toBe(201);
     expect(res.body.success).toBe(true);
-    expect(res.body.data.id).toMatch(/^std-\d+$/);
+    // Danh sách ban đầu có std-1, sinh viên tiếp theo bắt buộc là std-2
+    expect(res.body.data.id).toBe('std-2');
     expect(res.body.data.email).toBe('[b.tran@gmail.com](mailto:b.tran@gmail.com)');
 
     const fileContent = JSON.parse(await fs.readFile(TEST_DATA_PATH, 'utf-8'));
     expect(fileContent.length).toBe(2);
-    expect(fileContent[1].id).toMatch(/^std-\d+$/);
+    expect(fileContent[1].id).toBe('std-2');
     expect(fileContent[1].email).toBe('[b.tran@gmail.com](mailto:b.tran@gmail.com)');
   });
 

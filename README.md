@@ -67,7 +67,7 @@ Website quản lý sinh viên chuyên nghiệp được xây dựng theo mô hì
    - Định dạng Gmail phải kết thúc bằng `@gmail.com`.
    - Kiểm tra trùng Gmail không phân biệt chữ hoa/thường.
    - Tính tuổi thực tế theo ngày/tháng/năm sinh: bắt buộc $\ge 17$ tuổi và không ở tương lai.
-5. Server đưa request vào hàng đợi tuần tự (`Promise queue`), tự động tạo ID chuẩn `std-${Date.now()}`, lưu email định dạng `[email@gmail.com](mailto:email@gmail.com)` và ghi vào file JSON.
+5. Server đưa request vào hàng đợi tuần tự (`Promise queue`), tự động tạo ID tăng dần `std-${nextNumber}` (std-1, std-2, std-3...), lưu email định dạng `[email@gmail.com](mailto:email@gmail.com)` và ghi vào file JSON.
 6. Server trả kết quả `201 Created` kèm sinh viên mới tạo.
 7. React nhận dữ liệu mới, chèn vào cuối mảng state, đóng modal, reset form, bắn Toast thành công và chạy GSAP highlight hàng mới mà **không tải lại trang (Zero page reload)**.
 
@@ -207,7 +207,7 @@ Dữ liệu trong [`server/data/students.json`](file:///d:/Y2-Se2/Y3-SE1/WEB/BLO
   }
 ]
 ```
-- **`id`**: Chuỗi ký tự có tiền tố `std-` (ví dụ: `std-1`, `std-1791515373032`).
+- **`id`**: Chuỗi ký tự có tiền tố `std-` tăng dần (ví dụ: `std-1`, `std-2`, `std-3`, ... `std-21`).
 - **`email`**: Lưu định dạng Markdown link `[email](mailto:email)`. Khi xem chi tiết, hệ thống có nút bấm mở thẳng ứng dụng gửi email hoặc soạn thảo trên Gmail Web.
 - **`dateOfBirth`**: Lưu dạng chuỗi `YYYY-MM-DD`, tự động format thành `DD/MM/YYYY` khi hiển thị trên giao diện người dùng.
 
