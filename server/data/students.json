@@ -21,13 +21,6 @@
     "className": "SE1"
   },
   {
-    "id": "std-1791514099840",
-    "name": "B",
-    "email": "[A@gmail.com](mailto:A@gmail.com)",
-    "dateOfBirth": "2005-06-01",
-    "className": "C"
-  },
-  {
     "id": "std-5",
     "name": "Phạm Minh Đức",
     "email": "[duc.pham@example.com](mailto:duc.pham@example.com)",
@@ -138,12 +131,5 @@
     "email": "[tam.dinh@example.com](mailto:tam.dinh@example.com)",
     "dateOfBirth": "2003-07-29",
     "className": "SE1"
-  },
-  {
-    "id": "std-1791515373032",
-    "name": "CC",
-    "email": "cc@gmail.com",
-    "dateOfBirth": "2003-01-09",
-    "className": "C"
   }
 ]
