@@ -1,0 +1,20 @@
+# Dependencies
+node_modules/
+
+# Logs
+*.log
+npm-debug.log*
+
+# Test files
+test-students.json
+coverage/
+
+# Environment variables
+.env
+.env.*
+
+# Editor & OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
